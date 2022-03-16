@@ -36,12 +36,12 @@ public class MainActivity extends AppCompatActivity {
         // Set up Action Bar
         NavController navController = host.getNavController();
 
-        // TODO STEP 11  - Create an AppBarConfiguration with the correct top-level destinations
+        //TODO STEP 11  - Create an AppBarConfiguration with the correct top-level destinations
         appBarConfiguration =  new AppBarConfiguration.Builder(navController.getGraph()).build();
 
         // You should also remove the old appBarConfiguration setup above
 
-        // TODO END STEP 11
+        //END STEP 11
 
         setupActionBar(navController, appBarConfiguration);
 
@@ -51,22 +51,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupBottomNavMenu(NavController navController) {
-        // TODO STEP 9 - Use NavigationUI to set up Bottom Nav
-        // TODO END STEP 9
+        //TODO STEP 9 - Use NavigationUI to set up Bottom Nav
+        //END STEP 9
     }
 
     private void setupNavigationMenu(NavController navController) {
-        // TODO STEP 10 - Use NavigationUI to set up a Navigation View
-        // TODO END STEP 10
+        //TODO STEP 10 - Use NavigationUI to set up a Navigation View
+        //END STEP 10
     }
 
     private void setupActionBar(NavController navController,
                                 AppBarConfiguration appBarConfig) {
-        // TODO STEP 12 - Have NavigationUI handle what your ActionBar displays
+        //TODO STEP 12 - Have NavigationUI handle what your ActionBar displays
         // This allows NavigationUI to decide what label to show in the action bar
         // By using appBarConfig, it will also determine whether to
         // show the up arrow or drawer menu icon
-        // TODO END STEP 12
+        //END STEP 12
     }
 
     @Override
@@ -85,15 +85,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         return super.onOptionsItemSelected(item);
-        // TODO STEP 8 - Have Navigation UI Handle the item selection -
-        //  make sure to comment or delete the old return statement above
+        //TODO STEP 8 - Have Navigation UI Handle the item selection -
+        // make sure to comment or delete the old return statement above
         // Have the NavigationUI look for an action or destination matching the menu
         // item id and navigate there if found.
         // Otherwise, bubble up to the parent.
-        // TODO END STEP 8
+        //END STEP 8
     }
 
-    // TODO STEP 12  - Have NavigationUI handle up behavior in the ActionBar
-    // TODO END STEP 12
+    //TODO STEP 12  - Have NavigationUI handle up behavior in the ActionBar
+    //END STEP 12
 
 }

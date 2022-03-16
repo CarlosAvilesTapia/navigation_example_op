@@ -54,7 +54,7 @@
             app:destination="@id/home_dest"/>
     </fragment>
 
-    <!-- TODO STEP 1 Create a new navigation destination pointing to SettingsFragment -->
-    <!-- TODO END STEP 1 -->
+    <!--TODO STEP 1 Create a new navigation destination pointing to SettingsFragment -->
+    <!--END STEP 1 -->
 
 </navigation>
