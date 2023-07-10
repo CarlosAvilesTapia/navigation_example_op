@@ -71,13 +71,13 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="settings_dest">
+                  <entry key="settingsFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="102" />
-                            <option name="y" value="18" />
+                            <option name="x" value="103" />
+                            <option name="y" value="56" />
                           </Point>
                         </option>
                       </LayoutPositions>

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BasicNavigationBase.iml" filepath="$PROJECT_DIR$/BasicNavigationBase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BasicNavigationBase1.iml" filepath="$PROJECT_DIR$/.idea/modules/BasicNavigationBase1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.unitTest.iml" />
     </modules>
   </component>
 </project>
