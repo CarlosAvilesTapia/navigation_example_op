@@ -52,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupBottomNavMenu(NavController navController) {
         //TODO STEP 9 - Use NavigationUI to set up Bottom Nav
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_nav_view);
+        if (null != bottomNav) {
+            NavigationUI.setupWithNavController(bottomNav,navController);
+        }
         //END STEP 9
     }
 
@@ -84,12 +88,18 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
+        // return super.onOptionsItemSelected(item);
         //TODO STEP 8 - Have Navigation UI Handle the item selection -
         // make sure to comment or delete the old return statement above
         // Have the NavigationUI look for an action or destination matching the menu
         // item id and navigate there if found.
         // Otherwise, bubble up to the parent.
+
+        if (NavigationUI.onNavDestinationSelected(item, Navigation.findNavController(this, R.id.my_nav_host_fragment)))
+            return true;
+        else {
+            return super.onOptionsItemSelected(item);
+        }
         //END STEP 8
     }
 

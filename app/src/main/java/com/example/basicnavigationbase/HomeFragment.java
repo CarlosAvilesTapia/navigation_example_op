@@ -60,13 +60,24 @@ public class HomeFragment extends Fragment {
         //END STEP 3
 
         //TODO STEP 4 - OnClickListener to navigate using an action
-        Button actionButton = (Button) view.findViewById(R.id.navigate_action_button);
-            actionButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.next_action,null));
+       // Button actionButton = (Button) view.findViewById(R.id.navigate_action_button);
+         //   actionButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.next_action,null));
 
 
         //END STEP 4
 
         //TODO STEP 7 - Update the OnClickListener to navigate using an action and using  ...Direction clases for arguments
+        Button actionButton = (Button) getView().findViewById(R.id.navigate_action_button);
+        actionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                int flowStepNumber=1;
+                HomeFragmentDirections.NextAction action = HomeFragmentDirections.nextAction();
+                action.setFlowStepNumber(flowStepNumber);
+                thisNavController.navigate(action);
+            }
+        });
         //END STEP 7
 
     }

@@ -13,11 +13,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434e87bd-dac0-49e9-afb5-30be4e51d934" name="Default Changelist" comment="Ejercicio individual 4.1&#10;- Repositorio clonado&#10;- Hecho el paso 1, 2 y 3.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/BasicNavigationBase1.app.main.iml" afterDir="false" />
+    <list default="true" id="434e87bd-dac0-49e9-afb5-30be4e51d934" name="Default Changelist" comment="Ejercicio individual 4.1&#10;- Hechos los pasos 4, 5 y 6.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/basicnavigationbase/FlowStepFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/basicnavigationbase/FlowStepFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/basicnavigationbase/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/basicnavigationbase/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/basicnavigationbase/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/basicnavigationbase/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/overflow_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/overflow_menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689091835543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ejercicio individual 4.1&#10;- Hechos los pasos 4, 5 y 6.">
+      <created>1689092791779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689092791779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ejercicio individual 4.1&#10;- Repositorio clonado&#10;- Hecho el paso 1." />
     <MESSAGE value="Ejercicio individual 4.1&#10;- Repositorio clonado&#10;- Hecho el paso 1, 2 y 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio individual 4.1&#10;- Repositorio clonado&#10;- Hecho el paso 1, 2 y 3." />
+    <MESSAGE value="Ejercicio individual 4.1&#10;- Hechos los pasos 4, 5 y 6." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio individual 4.1&#10;- Hechos los pasos 4, 5 y 6." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
